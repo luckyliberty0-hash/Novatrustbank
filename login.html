@@ -1,30 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Login — NovaTrustBank (Demo)</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login – NovaTrustBank</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header class="topbar">
-    <div class="brand">NovaTrust<span class="gold">Bank</span></div>
-    <nav><a href="index.html">Home</a></nav>
-  </header>
 
-  <div class="container form card">
-    <h2>Sign in</h2>
-    <div id="msg" class="alert" style="display:none"></div>
-    <form id="loginForm">
-      <label class="label">Email</label>
-      <input class="input" id="email" type="email" required>
-      <label class="label">Password</label>
-      <input class="input" id="password" type="password" required>
-      <button class="btn" type="submit">Sign in</button>
-      <p class="small">No account? <a href="#" id="createDemo">Create demo account</a></p>
+<header class="topbar">
+    <div class="brand">NovaTrust<span>Bank</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html" class="active">Login</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+</header>
+
+<main class="login-container">
+    <h2>User Login</h2>
+    <p class="lead">Access your secure banking dashboard</p>
+
+    <form class="login-form">
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="********" required>
+
+        <button type="submit" class="btn">Login</button>
     </form>
-  </div>
 
-<script src="js/app.js"></script>
+    <p class="note">This is a demo banking system for academic use only.</p>
+</main>
+
+<footer>
+    <p>© 2025 NovaTrustBank. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
