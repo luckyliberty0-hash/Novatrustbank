@@ -24,3 +24,24 @@ function addTransaction(type, amount) {
 }
 
 // Handle transfer form
+// === SIGNUP ACCOUNT CREATION ===
+const signupForm = document.getElementById('signupForm');
+    signupForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+
+        // Save user data (fake account)
+        localStorage.setItem("nt_user", JSON.stringify({
+            name: name,
+            email: email
+        }));
+
+        // Demo balance
+        localStorage.setItem("nt_balance", "1250.75");
+
+        // Redirect to dashboard
+        window.location.href = "dashboard.html";
+    });
+}
