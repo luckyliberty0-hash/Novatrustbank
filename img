@@ -1,0 +1,7 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="40" rx="6" fill="#0A3A5A"/>
+  <text x="20" y="26" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="600">
+    NovatrustBank
+  </text>
+  <circle cx="12" cy="20" r="6" fill="#4CC0FF"/>
+</svg>
