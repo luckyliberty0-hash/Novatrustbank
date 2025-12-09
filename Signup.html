@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Create Account — Novatrust</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="img/logo.svg" alt="Novatrust" style="height:34px;">
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="active">Create Account</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="login-container card">
+    <h2>Create Account</h2>
+    <p class="lead">Fill the form below to create your demo account.</p>
+
+    <form id="signupForm" class="login-form">
+      <label>Full Name</label>
+      <input id="name" type="text" placeholder="John Doe" required>
+
+      <label>Email</label>
+      <input id="email" type="email" placeholder="you@example.com" required>
+
+      <label>Password</label>
+      <input id="password" type="password" placeholder="Enter any password" required>
+
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+
+    <p class="note" style="margin-top:10px;">
+      Already have an account?
+      <a href="login.html">Sign in</a>
+    </p>
+  </div>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
